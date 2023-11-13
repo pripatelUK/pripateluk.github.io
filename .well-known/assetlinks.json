@@ -1,1 +1,23 @@
-{}
+[
+ {
+    "relation" : [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target" : {
+      "namespace" : "web",
+      "site" : "https://pripateluk.github.io"
+    }
+  },
+ {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.examplereactnative",
+      "sha256_cert_fingerprints": ["04:C0:1B:A1:52:38:48:5E:B1:5D:55:5A:2D:05:31:10:B8:EC:85:1E:41:22:2C:CF:4F:11:9A:94:39:5C:69:8F"]
+    }
+  }
+]
